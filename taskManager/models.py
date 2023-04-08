@@ -3,10 +3,6 @@ from django.utils.timezone import now
 import uuid
 from django.contrib.auth.models import AbstractUser
 
-class AuthUser(AbstractUser):
-    pass
-
-
 # # Create your models here.
 class User(models.Model):
 
